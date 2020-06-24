@@ -1,0 +1,130 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Lucida Sans Unicode;
+	font-size: 15px;
+	line-height: 1.5;
+	background-color: #fffdfb;
+	color: #323644;
+	height: 1500px;
+}
+
+/* Global container**/
+.container{
+	width: auto;
+	height: auto;
+	margin: 20px;
+	overflow: hidden;
+}
+	
+
+/*Header**/	
+header{
+	min-height: 20px;
+/* 	height: auto;
+	width: 100%; */
+}	
+
+.logo img{
+	float: left;
+	width: 100px;
+	height: auto;
+	margin: 0;
+	padding: 0;
+}
+
+/*Define unordered list**/
+ul{
+	float: right;
+	list-style-type: none;
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #000;
+	padding: 5px 15px;
+	border: 1px solid #transparent;
+	transition: 0.6s ease;
+	
+}
+
+ul li a.active-page{
+
+	border: 1px solid #323644;
+	color: #323644;
+}
+
+ul li a:hover{
+	background-color:rgba(50,54,68,0.5);
+	border: 1px solid #323644;
+	/* background-color: #323644; opacity:0.5; */
+	color: #fff;
+}
+
+
+#showcase{
+	background-image: url("img/STEMClub_Webpage_test.jpg");
+	background-attachment: fixed;
+	min-height: 600px;
+	height: 35%;  /* Specify image height in pixels  */
+	background-position: center; /* Specify image position */
+	background-repeat: norepeat;/* Do not repeat image */
+	background-size: cover; /* Resize background image to cover container */
+	z-index: 1;
+	
+}
+#showcase .overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+/*  	height: 100%; 
+	width: 100%; */
+	z-index: 2;
+	background-color: rgba(0, 0, 0, 0.9);
+}
+
+#showcase .container{
+
+/*     font-weight: bold; */
+    font-stretch: normal;
+    font-size: 45.78px;
+	width: 500px;
+    line-height: 1.4em;
+    font-family: Lucida Sans Unicode;
+    color: #fff;
+	z-index: 3;
+	
+}
+
+#showcase .container ul li a{
+	float: left;
+	font-size: 23.44px;
+	padding: 5;
+	border: 1px solid #fff;
+	color: #fff;
+}
+
+h2{
+	text-align: center;
+ 	font-size: 29.30px; 
+}
+
+.Content{
+	min-height: 600px;
+	height: 45%;
+	
+}
+
+footer{
+	text-align: center;
+	background-color: #fffdfb;
+	width: auto;
+	height: 10%;
+	min-height: 20px;
+	
+}
+
